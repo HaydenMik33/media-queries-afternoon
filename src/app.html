@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Philosopher|Shrikhand|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#services">SERVICES</a>
+        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#about">ABOUT</a>
+        <a href="#team">TEAM</a>
+        <a href="#contact">CONTACT</a>
+        <a href="javascript:void(0);" style="font-size:15px" class="icon" onclick="myf()">MENU &#9776;</a>
+    </div>
+    <!-- javascript:void(0) ====>>>> have the link not navigate anywhere -->
+    <div class="first-page-bg">
+        <div class="first-page">
+            <p>Welcome To Our Studio!</p>
+            <h1>It's nice to meet you</h1>
+            <button>TELL ME MORE</button>
+        </div>
+    </div>
+    <div class="page-container">
+        <div class="page">
+            <h1>SERVICES</h1>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <h1>E-COMMERCE</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+                magni, dicta impedit.</p>
+            <h1>RESPONSIVE DESIGN</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+                magni, dicta impedit.</p>
+            <h1>Web Security</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+                magni, dicta impedit.</p>
+        </div>
+        <div class="page">
+            <h1>My First Heading</h1>
+            <p>My first paragraph.</p>
+        </div>
+        <div class="page">
+            <h1>My First Heading</h1>
+            <p>My first paragraph.</p>
+        </div>
+    </div>
+    <script>
+        function myf() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

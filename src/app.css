@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Kaushan+Script", sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #454140;
+  margin: 0;
+  padding: 0%;
+  font-weight: bolder;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffcf5b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #454140;
+  background-color: #ffcf5b;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+  .topnav a:not(:last-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  body .first-page-bg {
+    height: 500px;
+  }
+  .first-page-bg .first-page {
+    width: 500px;
+  }
+  .first-page-bg .first-page h1 {
+    line-height: 100%;
+    padding: 0;
+    display: inline-block;
+    font-size: 60px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .first-page-bg .first-page p {
+    font-size: 20px;
+  }
+  .page-container .page {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.first-page-bg {
+  width: 100vw;
+  height: 1000px;
+  background-image: url("main-yellow-bg.jpg");
+  max-width: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.first-page {
+  text-align: center;
+  margin: auto;
+  padding-top: 70px;
+  color: #454140;
+}
+.first-page h1 {
+  font-family: "Shrikhand", cursive;
+  font-size: 100px;
+  text-shadow: 2px 2px #c0ded9;
+}
+.first-page p {
+  font-size: 40px;
+  color: #454140;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Playfair Display", serif;
+}
+.first-page button {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 25px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #454140;
+  color: wheat;
+}
+.page {
+  padding: 30px;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
